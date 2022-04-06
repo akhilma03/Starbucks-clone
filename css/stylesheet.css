@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outline{
+    background-color: rgb(32, 75, 4);
+    height:10px
+    
+}
+
+/* .main{
+    margin: 10px; */
+/* } */
+.header{
+ background-color: #F7F7F7;
+ width: 100;
+ margin-top: 10px;
+ cursor: pointer;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    margin: 30px;
+    padding-left: 46px;
+    margin-right: 1px;
+    margin-left: 2px;
+    padding-right: 46px;
+    margin-top: -10px;
+
+}
+.icon{
+    padding-left: 10px;
+}
+.location{
+    display: flex;
+    padding: 20px;
+}
+.location p{
+    padding-left: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    
+    padding-left: 46px;
+    margin-right: 1px;
+    margin-left: 46px;
+    padding-right: 46px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+
+
+.about{
+    padding-left: 46px;
+    margin-right: 1px;
+    margin-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 20px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+}
+
+
+.body .pic1 img{
+    width: 1354px;
+    height: 560px;
+    background-size: auto;
+    overflow: hidden;
+    margin: -5px;
+    
+}
+.bodylst1{
+    display: flex;
+    justify-content: space-around;
+}
+.bodylst1 .text{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bodylst1 .text :nth-child(1){
+    font-size: 30px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.bodylst1 .text :nth-child(2){
+    font-style: italic;
+    font-size: 19px;
+}
+.bodylst2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+
+}
+.bodylst2 .text{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bodylst2 .text :nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lato,Helvetica,Arial,sans-serif;}
+
+.bodylst2 .text :nth-child(2){
+    font-style: italic;
+    font-size: 19px;}
+
+    .footer1{
+        display: flex;
+        padding: 30px;
+        /* border: 1px solid red; */
+        font-size: 30px;
+        background-color: #F0F0F0;
+
+      
+    }
+    .footer1 :nth-child(1){
+     padding-left: 20px;
+    }
+    .footer1 :nth-child(2){
+        padding-left: 20px;
+       }
+       .footer1 :nth-child(3){
+        padding-left: 20px;
+       }
+       .footer2{
+           display: flex;
+            /* justify-content: ; */
+            margin-top: 2px;
+            background-color: #F7F7F7;
+           align-items: flex-start;
+           padding: 40px;
+           font-family: Lato,Helvetica,Arial,sans-serif;
+           font-size: 15px;
+           position: relative;
+           cursor: pointer;
+         
+
+           right:0;
+           left:0;
+           padding: 20px
+           
+           
+           
+           
+       }
+       .about{
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           position: relative;
+           padding-left: 1px;
+           margin-right: 65px;
+         ;
+           
+
+
+
+       }
+     
+        
+    .footer2 .customer{
+        margin-right: 40px;
+    }
+    .limage {
+        position: absolute;
+        right: 2.3rem;
+      
+    }
+        
+    .limage img{
+        height: 120px;
+        object-fit: cover;
+        
+     
+        
+    }
+    .footer3{
+        display: flex;
+        position: relative;
+        color: #888181;
+        background-color: #F7F7F7;
+        padding-bottom: 50px;
+        left: 0;
+        font-family: Lato,Helvetica,Arial,sans-serif;
+   
+    }
+
+    .footer3 .web{
+        margin-left: 3.8rem;
+        
+
+    }
+    .web :nth-child(1){
+        cursor: pointer;
+    }
+   .web small{
+       font-size: 10px;
+
+   }
+       
+      
+
+
+   
+   .bottom{
+    height:10px;
+    background-color: #382F2D
+   
+    
+    
+   }
